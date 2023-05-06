@@ -1,9 +1,9 @@
 !! URxvt Appearance
-URxvt.font: xft:DejaVu Sans Mono:style=Regular:size=16
-URxvt.boldFont: xft:DejaVu Sans Mono:style=Bold:size=16
-URxvt.italicFont: xft:DejaVu Sans Mono:style=Italic:size=16
-URxvt.boldItalicFont: xft:DejaVu Sans Mono:style=Bold Italic:size=16
-! urxvt*font: xft:DejaVu Sans Mono:size=16
+URxvt.font: xft:DejaVu Sans Mono:style=Regular:size=14
+URxvt.boldFont: xft:DejaVu Sans Mono:style=Bold:size=14
+URxvt.italicFont: xft:DejaVu Sans Mono:style=Italic:size=14
+URxvt.boldItalicFont: xft:DejaVu Sans Mono:style=Bold Italic:size=14
+! urxvt*font: xft:DejaVu Sans Mono:size=14
 ! URxvt.font: -*-rissolde-*
 ! URxvt.boldFont: -*-rissole-*
 ! URxvt.italicFont: -*-rissole-*
