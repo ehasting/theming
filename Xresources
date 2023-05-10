@@ -5,12 +5,17 @@ XTerm.vt100.backarrowKey: false
 XTerm.ttyModes: erase ^?
 XTerm.vt100.saveLines: 32000
 XTerm.vt100.scrollBar: true
-XTerm.vt100.scrollbar.width: 8 
+XTerm.vt100.scrollbar.width: 16
 
 XTerm.vt100.geometry: 120x36
-XTerm.vt100.faceName: DejaVu Sans Mono:size=15:antialias=true
+XTerm.vt100.faceName: DejaVu Sans Mono:size=16:antialias=true
 XTerm.vt100.font: 7x13
 
+! XTerm.vt100.selectToClipboard: true
+
+XTerm.vt100.translations:    #override \n\
+    Ctrl <KeyPress> Insert: copy-selection(CLIPBOARD) \n\
+    Shift <KeyPress> Insert: insert-selection(CLIPBOARD)
 
 !! URxvt Appearance
 URxvt.font: xft:DejaVu Sans Mono:style=Regular:size=14
